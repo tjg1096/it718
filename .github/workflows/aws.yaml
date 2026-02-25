@@ -18,5 +18,5 @@ jobs:
         aws-region: us-east-2
     
     - name: Sync to S3
-      run: aws s3 sync . s3://tyler-geffrard-static-site-001 --exclude ".git*"
+      run: aws s3 sync . s3://tyler-static-site-718-001 --exclude ".git*"
 
